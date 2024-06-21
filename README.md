@@ -1,5 +1,4 @@
 # Text-Formatter
-# Text Formatting
 
 ## Overview
 This tool provides a simple yet effective way to format text using buttons for underline, bold, italic, and line-through styles. It includes functionality to reset formatting and displays the formatted text in real-time.
