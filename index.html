@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Formatter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="main">
+        <button class="btn" onclick="formatText('underline')">Underline</button>
+        <button class="btn" onclick="formatText('bold')">Bold</button>
+        <button class="btn" onclick="formatText('italic')">Italic</button>
+        <button class="btn" onclick="formatText('linethrough')">Line Through</button>
+        <button class="btn" onclick="reset()">Reset</button><br>
+        <section class="container">
+            <textarea class="input textArea" id="input" cols="35" rows="10"></textarea>
+            <p class="output textArea" id="output" cols="35" rows="10"></p>   
+        </section>    
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

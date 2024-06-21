@@ -1,0 +1,60 @@
+:root{
+    --bgcolor: hsla(200, 60%, 90%, 1);
+    --textColor: hsla(200, 20%, 20%, 1);
+    --btnColor: hsla(220, 60%, 50%, 1);
+    --textAreaColor: hsla(220, 20%, 95%, 1);
+    --width: 100vw;
+    --height: 100vh;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--bgcolor);
+}
+
+.main{
+    border: 1px solid black;
+    padding: 2em;
+    margin: 5% auto;
+    display: block;
+    width: calc(var(--width) - 5vw);
+    height: calc(var(--height) - 20vh);
+}
+.btn{
+    border: none;
+    outline: 0;
+    padding: 1em;
+    background-color: var(--btnColor);
+    border-radius: .3em;
+    color: var(--textColor);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textArea{
+    padding: .5em;
+    width: calc(var(--width) - 60vw);
+    border: 1px solid var(--textColor);
+    width: calc(var(--width) - 20vw);
+    height: calc(var(--height) - 40vh);
+    margin: .5em;
+    background-color: var(--textAreaColor);
+}
+
+.underline{
+    text-decoration: underline;
+}
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+.linethrough{
+    text-decoration: line-through;
+}
